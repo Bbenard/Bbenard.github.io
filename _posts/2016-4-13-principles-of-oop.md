@@ -4,7 +4,7 @@ title: Four major principles of Object-Oriented Programming (OOP)
 ---
 #Four major principles of Object-Oriented Programming (OOP)
 
-1.Encapsulation:
+##1.Encapsulation:
 Encapsulation means that the internal representation of an object is generally hidden from view outside of the object’s definition. Typically, only the object’s own methods can directly inspect or manipulate its fields.
 
 Encapsulation is the hiding of data implementation by restricting access to accessors and mutators.
