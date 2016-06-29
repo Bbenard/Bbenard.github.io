@@ -33,9 +33,49 @@ The Profiles tool helps you capture and analyze the performance of JavaScript sc
 
 Modern web applications require more persistence than simply cookies, and the Storage tool helps you track, query, and debug local browser storage. This tool can display and query data stored in local databases, local storage, session storage, and cookies.
 
- _Accessing the DevTools_
- To access the DevTools, open a web page or web app in Google Chrome. Either:
+*Audit*
+The Audit tool is like having your own web optimization consultant sitting next to you. This tool can analyze a page as it loads and provide suggestions and optimizations for decreasing page load time and increase perceived (and real) responsiveness
 
-    Select the Chrome menu Chrome Menu at the top-right of your browser window, then select Tools > Developer Tools.
-    Right-click on any page element and select Inspect Element.
+*Console*
+Last but definitely not least, the Developer Tools offers a full featured Console. From the Console, you can enter arbitrary JavaScript and programmatically interact with your page
+
+#####Starting Up
+It's easy to start the Developer Tools while inside Chrome.
+
+For any operating system, you can simply right-click on any element in the page and select the "Inspect Element" option from the context menu. This will open the Developer Tools and drill right to the element you clicked on.
+
+Finally, you can choose to open the tools from the main browser menu.
+
+On a Mac, and from the main application menu bar, select View, Developer, Developer Tools.
+You may also open the Developer Tools with a simple keyboard shortcut. Depending on your operating system, try the following:
+
+On Windows and Linux, select the Control-Shift-J keys.
+On Mac, select the Command-Option-J keys.
+
+*Summary on Elements*
+There is a lot of functionality available via the Elements Tab,
+
+You should use the Elements Tab when you want to see how the page looks to the browser itself. Common problems such as "how is this style computed?" or "what HTML tags generated this component?" are quickly and easily answered via the Elements Tab.
+
+Think of the Elements Tab like an uber-"view source", and gain very sharp visibility into your page.
+
+After you've investigated the page, you might be wondering how HTML, CSS, and images got there in the first place. The Resources Tab, described next, shows you how the client browser and web server communicate to send over those resources.
+
+*Resources*
+Once your application is functioning, your next step should be to optimize the network and bandwidth performance. You should aim to make the transfer of your application, from server to client, as fast and as efficient as possible. Your users will thank you for the fast page loads, you'll save money on bandwidth and server resources, and you'll also score better in Google's search result ranks (which now take into account site speed).
+
+The Resources Tab in Developer Tools is your window into the communication between web server and client browser. You are able to see all of the resources requested by the browser (this is always very surprising!), the time it takes to receive them from the server, and how much bandwidth is used during the transfer.
+
+Ironically, running the Resources Tab affects page load performance, so it is disabled by default. The first time you access the functionality, you will need to enable it for the page you are viewing.
+
+*Summary Resources*
+There is a lot more to the Resources tab, which we will cover in a future article.
+
+Use the Resources Tab to gain visibility into how your client browser is communicating with the web server. Using this information, including request time, request size, and request order, you can make smart optimizations to reduce server load, costs, and increase speed and enhance user experience.
+
+Speed is very important for your web site, your users, and search engines. Once you have the number and size of resources reduced, and the appropriate HTTP conversations occurring, the next step is to investigate and optimize the scripts that are running in your page. Luckily, the Scripts tab, discussed next, does just that.
+
+
+
+ 
 
