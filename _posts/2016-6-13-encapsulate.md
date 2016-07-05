@@ -26,7 +26,8 @@ The behavior of this object is what which is useful for the external world or ot
 An object exposes its behavior by means of public methods or functions.
 The set of functions an object exposes to other objects or external world acts as the interface of the object.
 
-public class EncapsulationDemo{
+public class EncapsulationDemo {
+
     private int ssn;
     private String empName;
     private int empAge;
@@ -57,7 +58,9 @@ public class EncapsulationDemo{
     }
 }
 public class EncapsTest{
+
     public static void main(String args[]){
+    
          EncapsulationDemo obj = new EncapsulationDemo();
          obj.setEmpName("Mario");
          obj.setEmpAge(32);
