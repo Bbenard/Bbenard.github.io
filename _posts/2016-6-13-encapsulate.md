@@ -1,6 +1,6 @@
 ---
-layout:  post
-title:Encapsulatation
+layout: post
+title: Encapsulatation
 ---
 
 # ENCAPSULATION IN JAVA
