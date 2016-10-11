@@ -7,10 +7,10 @@ permalink: /about/
  Name :Benard Kiprotich
 Software Engineer at Moringa School
 
-### vision 
+### Vision 
 
-**To be  a Wold Class Software Engineer.
-Android and Web Development**
+To be  a Wold Class Software Engineer.
+Android and Web Development
 
 ## Contact me
 
