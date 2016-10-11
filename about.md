@@ -8,7 +8,7 @@ permalink: /about/
 Software Engineer at Moringa School
 
 ### More Information
-##vision 
+#vision 
 **To be  a Wold Class Software Engineer.
 Android and Web Development
 
