@@ -4,14 +4,15 @@ title: About
 permalink: /about/
 ---
 
-My Name is Benard Kiprotich
-A student at Moringa School
+ Name :Benard Kiprotich
+Software Engineer at Moringa School
 
 ### More Information
-#### vision 
-Benard the Wold Class Software Engineer.
+##vision 
+**To be  a Wold Class Software Engineer.
+Android and Web Development
 
-### Contact me
+## Contact me
 
 phone no.+254724049347
 
