@@ -5,6 +5,7 @@ permalink: /about/
 ---
 
  Name :Benard Kiprotich
+ 
 Software Engineer at Moringa School
 
 ## Vision 
